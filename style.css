@@ -1,9 +1,14 @@
 body {
     font-family: Arial, sans-serif;
     margin: 0;
+    
+    background-image: url('background.jpg'); 
+    background-size: cover;          
+    background-repeat: no-repeat;    
+    background-attachment: fixed;    
+    
     background-color: #f0f0f036; 
 }
-
 
 #journal-container {
     width: 900px; 
@@ -12,7 +17,6 @@ body {
     border: 1px solid #cccccc13; 
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
-
 
 #header-section {
     background-color: #a8dcb165; 
@@ -33,17 +37,15 @@ body {
     margin: 5px 0 0 0;
 }
 
-
 #content-area {
     overflow: auto; 
     padding: 20px;
 }
 
-
 #sidebar {
     width: 200px;
     background-color: #e6f7f8; 
-    border: 1px solid #a8dadc;
+    border: 1px solid #0e4a4d;
     margin-right: 20px;
     padding: 15px; 
     float: left; 
@@ -51,7 +53,7 @@ body {
 
 #sidebar h2 {
     color: #457b9d; 
-    border-bottom: 1px solid #a8dadc;
+    border-bottom: 1px solid #57125159;
     padding-bottom: 5px;
     margin-top: 0;
 }
@@ -84,7 +86,6 @@ body {
     font-weight: bolder; 
     color: #457b9d;
 }
-
 
 .image-right {
     float: right; 
