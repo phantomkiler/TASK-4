@@ -1,21 +1,21 @@
 body {
     font-family: Arial, sans-serif;
     margin: 0;
-    background-color: #f0f0f0; 
+    background-color: #f0f0f036; 
 }
 
 
 #journal-container {
     width: 900px; 
     margin: 30px auto; 
-    background-color: #ffffff; 
-    border: 1px solid #ccc; 
+    background-color: #ffffff6c; 
+    border: 1px solid #cccccc13; 
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
 
 #header-section {
-    background-color: #a8dadc; 
+    background-color: #a8dcb165; 
     color: #000;
     padding: 20px;
     text-align: center;
