@@ -1,0 +1,101 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-color: #f0f0f0; 
+}
+
+
+#journal-container {
+    width: 900px; 
+    margin: 30px auto; 
+    background-color: #ffffff; 
+    border: 1px solid #ccc; 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+
+#header-section {
+    background-color: #a8dadc; 
+    color: #000;
+    padding: 20px;
+    text-align: center;
+    border-bottom: 5px solid #457b9d; 
+}
+
+#header-section h1 {
+    font-size: 3em;
+    font-weight: bold; 
+    margin: 0;
+}
+
+#header-section p {
+    font-style: italic;
+    margin: 5px 0 0 0;
+}
+
+
+#content-area {
+    overflow: auto; 
+    padding: 20px;
+}
+
+
+#sidebar {
+    width: 200px;
+    background-color: #e6f7f8; 
+    border: 1px solid #a8dadc;
+    margin-right: 20px;
+    padding: 15px; 
+    float: left; 
+}
+
+#sidebar h2 {
+    color: #457b9d; 
+    border-bottom: 1px solid #a8dadc;
+    padding-bottom: 5px;
+    margin-top: 0;
+}
+
+#sidebar li {
+    font-family: 'Verdana', sans-serif; 
+    color: teal; 
+}
+
+#entries {
+    margin-left: 220px; 
+}
+
+.entry {
+    background-color: #f1faee;
+    border: 1px solid #a8dadc; 
+    margin-bottom: 30px; 
+    padding: 10px; 
+    overflow: auto; 
+}
+
+.date {
+    background-color: #d0eef1;
+    padding: 5px;
+    margin: -10px -10px 10px -10px; 
+    border-bottom: 2px solid #a8dadc;
+}
+
+.entry-title {
+    font-weight: bolder; 
+    color: #457b9d;
+}
+
+
+.image-right {
+    float: right; 
+    margin: 5px 0 10px 15px; 
+    width: 150px; 
+    height: auto; 
+}
+
+hr {
+    border: 0;
+    height: 1px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+    margin: 20px 0;
+}

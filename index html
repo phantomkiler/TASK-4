@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Victoria's Journal</title>
+    <link rel="stylesheet" href="style css"> 
+</head>
+<body>
+
+    <div id="journal-container"> 
+
+        <div id="header-section">
+            <h1>Victoria's Journal</h1>
+            <p>So fresh and so clean</p>
+        </div>
+
+        <div id="content-area">
+
+            <div id="sidebar" class="box">
+                <h2>Friends</h2>
+                <ul>
+                    <li><a href="#">UK Builders</a></li>
+                    <li><a href="#">Big Wall</a></li>
+                    <li><a href="#">Conceptis Collective</a></li>
+                </ul>
+            </div>
+
+            <div id="entries">
+
+                <div class="entry box">
+                    <h3 class="date">04/09/08: <span class="entry-title">Spatulas</span></h3>
+                    <div class="entry-body">
+                        <img src="spatula.jpg" alt="A black slotted plastic spatula." class="image-right">
+                        <p>Yesterday, I went to the store and got some much needed spatulas! (what better way to say I love myself than to buy myself a spatula?)</p>
+                    </div>
+                </div>
+                
+                <hr>
+
+                <div class="entry box">
+                    <h3 class="date">04/08/08: <span class="entry-title">Cookie Cupcakes</span></h3>
+                    <div class="entry-body">
+                         <img src="cookiescupcake.jpeg" alt="A tray of chocolate cookie cupcakes." class="image-right">
+                        <p>My favorite cartoon character is cookie, and my favorite dessert is cupcakes. So Cookie Cupcakes are best of both the worlds. Did you know? Cookie character once said: "Sometimes me think what is love, and then me like frods. Cookie ngu inga inga inga inga.</p>
+                    </div>
+                </div>
+
+            </div> </div> </div> </body>
+</html>
